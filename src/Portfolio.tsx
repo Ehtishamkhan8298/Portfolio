@@ -17,7 +17,6 @@ import {
   ChevronDown,
   TrendingUp,
   PieChart,
-  LineChart
 } from "lucide-react";
 
 
