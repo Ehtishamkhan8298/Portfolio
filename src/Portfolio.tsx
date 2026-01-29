@@ -1,5 +1,7 @@
 
 import { useState, useEffect } from "react";
+import profileImg from "./assets/photo.jpg";
+
 
 import {
   Code,
@@ -244,11 +246,11 @@ const scrollToSection = (sectionId: string) => {
           <div className="flex justify-center">
             <div className="relative group">
               <div className="absolute -inset-1 bg-gradient-to-r from-cyan-500 to-blue-600 rounded-full blur opacity-75 group-hover:opacity-100 transition duration-300"></div>
-              <img
-                src="/src/assets/photo.jpg"
-                alt="Mohammad Ehtisham Khan"
-                className="relative rounded-full w-80 h-80 object-cover border-4 border-slate-800"
-              />
+                <img
+                  src={profileImg}
+                  alt="Mohammad Ehtisham Khan"
+                  className="relative rounded-full w-80 h-80 object-cover border-4 border-slate-800"
+                />
             </div>
           </div>
         </div>
