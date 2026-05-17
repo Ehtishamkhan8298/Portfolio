@@ -57,7 +57,7 @@ const scrollToSection = (sectionId: string) => {
 
   const downloadResume = () => {
     // Convert Google Drive view link to direct download link
-    const fileId = '1OeYAUI7m2h70uCQ860AruHuklyCdCZy-';
+    const fileId = '1M4dFp_oFX0tMgjPR5OKfvSyzkuaHYLAI';
     const downloadUrl = `https://drive.google.com/uc?export=download&id=${fileId}`;
     
     // Create temporary link and trigger download
